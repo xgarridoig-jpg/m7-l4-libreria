@@ -82,7 +82,7 @@ Detecta cambios en los modelos y genera el archivo de migración correspondiente
 
 ![Makemigrations Inicial](evidencias/makemigrations_inicial.png)
 
-![Makemigrations ISBN](evidencias\makemigrations_isbn.png)
+![Makemigrations ISBN](evidencias/makemigrations_isbn.png)
 
 ---
 
@@ -97,9 +97,9 @@ Aplica las migraciones pendientes y actualiza la estructura de la base de datos.
 
 📷 **Evidencias:**
 
-![Migrate Inicial](evidencias\migrate_inicial.png)
+![Migrate Inicial](evidencias/migrate_inicial.png)
 
-![Migrate ISBN](evidencias\migrate_isbn.png)
+![Migrate ISBN](evidencias/migrate_isbn.png)
 
 ---
 
@@ -109,7 +109,7 @@ Se verificó que el campo `isbn` estuviera correctamente disponible en la base d
 
 📷 **Evidencia:**
 
-![Verificación campo ISBN en Shell](evidencias\verificacion_isbn_shell.png)
+![Verificación campo ISBN en Shell](evidencias/verificacion_isbn_shell.png)
 
 ---
 
@@ -127,7 +127,7 @@ Este procedimiento se realizó únicamente con fines académicos para observar e
 
 📷 **Evidencia:**
 
-![Eliminación del Archivo de Migración](evidencias\migracion_eliminada.png)
+![Eliminación del Archivo de Migración](evidencias/migracion_eliminada.png)
 
 ---
 
@@ -143,7 +143,7 @@ Django detectó nuevamente los cambios en el modelo y regeneró automáticamente
 
 📷 **Evidencia:**
 
-![Generación del Archivo de Migración](evidencias\migracion_generada.png)
+![Generación del Archivo de Migración](evidencias/migracion_generada.png)
 
 ---
 
@@ -165,7 +165,7 @@ Lo anterior indica que la base de datos ya se encontraba sincronizada con el est
 
 📷 **Evidencia:**
 
-![Migración Completada](evidencias\migracion_ok.png)
+![Migración Completada](evidencias/migracion_ok.png)
 
 ---
 
@@ -185,7 +185,7 @@ Consecuencias observadas:
 
 📷 **Evidencia:**
 
-![Migración Pendiente](evidencias\migracion_pendiente.png)
+![Migración Pendiente](evidencias/migracion_pendiente.png)
 
 ---
 
@@ -207,7 +207,7 @@ Permite verificar el estado actual del historial de migraciones del proyecto.
 
 📷 **Evidencia:**
 
-![Estado de Migraciones](evidencias\showmigrations.png)
+![Estado de Migraciones](evidencias/showmigrations.png)
 
 ---
 
