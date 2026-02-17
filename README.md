@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Librería Papelucho API
+# 📚 Librería Papelucho
 
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
