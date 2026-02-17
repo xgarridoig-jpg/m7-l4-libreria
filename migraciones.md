@@ -1,8 +1,8 @@
 # Gestión de Migraciones en Django
 
-**Módulo:** Acceso a Datos en Aplicaciones Python-Django
-**Experiencia de Aprendizaje:** Actividad N°4 – Gestión de Migraciones en Django, Módulo 7
-**Autor:** Ximena Garrido
+* **Módulo:** Acceso a Datos en Aplicaciones Python-Django
+* **Experiencia de Aprendizaje:** Actividad N°4 – Gestión de Migraciones en Django, Módulo 7
+* **Autor:** Ximena Garrido
 
 ---
 
