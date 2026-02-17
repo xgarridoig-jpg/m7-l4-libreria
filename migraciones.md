@@ -80,7 +80,7 @@ Detecta cambios en los modelos y genera el archivo de migración correspondiente
 
 📷 **Evidencias:**
 
-![Makemigrations Inicial](evidencias\makemigrations_inicial.png)
+![Makemigrations Inicial](evidencias/makemigrations_inicial.png)
 
 ![Makemigrations ISBN](evidencias\makemigrations_isbn.png)
 
