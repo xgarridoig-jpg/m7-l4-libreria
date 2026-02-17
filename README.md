@@ -1,26 +1,41 @@
-# 📚 Librería Papelucho
+<div align="center">
+
+# 📚 Librería Papelucho API
+
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-5.0-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Status](https://img.shields.io/badge/Status-En%20Desarrollo-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 Proyecto desarrollado con **Django** y **PostgreSQL** que modela una pequeña biblioteca dedicada a los libros de *Papelucho*, el icónico personaje de la literatura infantil chilena creado por Marcela Paz.
+
+
+> Desarrollado en el marco de la **Actividad Práctica N°4 – Módulo 7 (Gestión de Migraciones en Django)**.
+
+</div>
+
+
 
 ---
 
 ## 📖 Descripción
 
-**Librería Papelucho** es una aplicación web backend que permite gestionar información sobre libros mediante el ORM de Django.
+**Librería Papelucho** es una aplicación backend que permite gestionar información bibliográfica utilizando el **ORM de Django** y el sistema de migraciones para el control del esquema de base de datos.
 
-El sistema permite:
+El sistema actualmente permite:
 
 * Registrar libros
-* Gestionar autores
-* Agregar información como título, autor e ISBN
-* Realizar operaciones CRUD utilizando Django ORM
+* Gestionar información básica (título, autor, ISBN)
+* Aplicar y versionar cambios en la base de datos mediante migraciones
+* Ejecutar operaciones CRUD utilizando Django ORM
 
-El proyecto está enfocado en demostrar la correcta implementación de:
+El desarrollo completo de la actividad práctica, incluyendo explicación teórica, comandos ejecutados y evidencias gráficas, se encuentra documentado en el archivo:
 
-* Modelos en Django
-* Migraciones
-* Gestión del esquema de base de datos
-* Buenas prácticas de estructura de proyecto
+```
+migraciones.md
+```
 
 ---
 
@@ -37,30 +52,46 @@ El proyecto está enfocado en demostrar la correcta implementación de:
 ## 🚀 Cómo ejecutar el proyecto
 
 1. Clonar el repositorio
-2. Activar entorno virtual
+2. Crear y activar entorno virtual
 3. Instalar dependencias
 
-   ```
-   pip install django psycopg2
-   ```
+```bash
+pip install -r requirements.txt
+```
+
 4. Ejecutar migraciones
 
-   ```
-   python manage.py migrate
-   ```
+```bash
+python manage.py migrate
+```
+
 5. Iniciar el servidor
 
-   ```
-   python manage.py runserver
-   ```
+```bash
+python manage.py runserver
+```
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🔮 Proyección futura
 
-Modelar y gestionar información bibliográfica utilizando Django, aplicando correctamente el sistema de migraciones para mantener sincronizado el esquema de la base de datos.
+Aunque actualmente cumple con los objetivos académicos de la actividad, el proyecto tiene potencial para evolucionar hacia:
+
+* Implementación de autenticación y control de usuarios
+* Interfaz frontend completa
+* Sistema de préstamos
+* Panel administrativo personalizado
+* API REST
 
 ---
 
-Proyecto académico desarrollado con fines educativos.
+## 🎯 Objetivo Académico
+
+Demostrar la correcta implementación del sistema de migraciones de Django y la sincronización entre modelos y base de datos.
+
+---
+
+Proyecto académico desarrollado con fines educativos y con potencial de crecimiento hacia una aplicación completa de gestión bibliográfica.
+
+
 
