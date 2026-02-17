@@ -7,7 +7,6 @@
 ![Django](https://img.shields.io/badge/Django-5.0-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-En%20Desarrollo-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 Proyecto desarrollado con **Django** y **PostgreSQL** que modela una pequeña biblioteca dedicada a los libros de *Papelucho*, el icónico personaje de la literatura infantil chilena creado por Marcela Paz.
 
